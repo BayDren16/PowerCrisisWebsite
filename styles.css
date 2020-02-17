@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: #222831;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.menubar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    height: 5em;
+    width: 100%;
+    background: #ffc400;
+}
+.menubar p{
+    line-height: 80px;
+    margin: auto;
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: 2em;
+    transition: margin .5s;
+}
+.menubar ul{
+    margin: auto;
+    margin-right: 1em;
+    float: right;
+}
+.menubar a{
+    border-radius: 0.25em;
+    padding: 1em 1.5vw;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #393e46;
+    transition: background .5s;
+}
+.menubar a:hover{
+    background: #eeeeee;
+}
+.menubar ul li{
+    display: inline-block;
+    margin-right: 1vw;
+}
+
+.menubar input{
+    visibility: hidden;
+}
+
+
+
+.article-header, .paragraph, .article-footer{
+    color: #eeeeee;
+    background-color: #393e46;
+    border-radius: 0.25em;
+    width: 800px;
+    padding: 1em;
+    font-size: 1.15em;
+    line-height: 150%;
+}
+.main a{
+    color: #6e9de7;
+    text-decoration: underline;
+}
+.article-header{
+    line-height: normal;
+}
+.article-header, .article-footer{
+    margin: 2em auto;
+}
+.paragraph{
+    margin: 1em auto;
+}
+.paragraph p{
+    margin: 1em;
+}
+.paragraph img{
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 800px){
+    .menubar p{
+        margin-left: 0.5em;
+    }
+
+    .main .article-header, .paragraph, .article-footer{
+        width: auto;
+    }
+    .article-header, .article-footer{
+        margin: 2em 1em;
+    }
+    .paragraph{
+        margin: 1em;
+    }
+}
