@@ -58,7 +58,7 @@ body{
 
 
 
-.article-header, .paragraph, .article-footer{
+.article-header, .section, .article-footer{
     color: #eeeeee;
     background-color: #393e46;
     border-radius: 0.25em;
@@ -78,13 +78,13 @@ body{
 .article-header, .article-footer{
     margin: 2em auto;
 }
-.paragraph{
+.section{
     margin: 1em auto;
 }
-.paragraph p{
+.section p{
     margin: 1em;
 }
-.paragraph img{
+.section img{
     width: 100%;
     height: auto;
 }
@@ -93,13 +93,13 @@ body{
         margin-left: 0.5em;
     }
 
-    .article-header, .paragraph, .article-footer{
+    .article-header, .section, .article-footer{
         width: auto;
     }
     .article-header, .article-footer{
         margin: 2em 1em;
     }
-    .paragraph{
+    .section{
         margin: 1em;
     }
 }
