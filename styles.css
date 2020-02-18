@@ -73,6 +73,7 @@ body{
 }
 .article-header{
     line-height: normal;
+    font-weight: bold;
 }
 .article-header, .article-footer{
     margin: 2em auto;
