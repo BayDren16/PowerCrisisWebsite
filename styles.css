@@ -67,7 +67,7 @@ body{
     font-size: 1.15em;
     line-height: 150%;
 }
-.main a{
+.article a{
     color: #6e9de7;
     text-decoration: underline;
 }
@@ -92,7 +92,7 @@ body{
         margin-left: 0.5em;
     }
 
-    .main .article-header, .paragraph, .article-footer{
+    .article-header, .paragraph, .article-footer{
         width: auto;
     }
     .article-header, .article-footer{
